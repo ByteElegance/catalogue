@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 · Rechercher et filtrer les ateliers</title>
+<link rel="stylesheet" href="../../styles.css">
+<main>
+  <nav><a href="../../index.html">Sommaire</a><a href="../../lecons/02/index.html">Cours</a><a href="../../exercices/02/index.html">Exercice</a><a href="../../corriges/02/index.html">Corrigé</a></nav>
+  <h1>02 · Rechercher et filtrer les ateliers</h1>
+  <p>Cours · Catalogue d’ateliers</p>
+  
+  
+<div class="filtres">
+  <label>Rechercher <input id="recherche" type="search"></label>
+  <label>Catégorie <select id="categorie">
+    <option value="">Toutes</option><option>HTML</option><option>CSS</option><option>JavaScript</option>
+  </select></label>
+</div>
+  
+  
+  <p id="statut" role="status"></p>
+  <ul id="liste"></ul>
+</main>
+<script type="module" src="./script.js"></script>
+</html>

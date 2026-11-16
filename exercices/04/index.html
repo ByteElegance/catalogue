@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>04 · Charger les ateliers avec fetch</title>
+<link rel="stylesheet" href="../../styles.css">
+<main>
+  <nav><a href="../../index.html">Sommaire</a><a href="../../lecons/04/index.html">Cours</a><a href="../../exercices/04/index.html">Exercice</a><a href="../../corriges/04/index.html">Corrigé</a></nav>
+  <h1>04 · Charger les ateliers avec fetch</h1>
+  <p>Exercice · Catalogue d’ateliers</p>
+  <p><strong>À coder.</strong> Gère les statuts HTTP en erreur avant de lire le JSON. Affiche un message qui contient le statut.</p><p><strong>À vérifier.</strong> Clique sur « Simuler une erreur HTTP ». La page doit afficher « Chargement impossible (HTTP 404). » Le bouton Réessayer doit recharger le vrai catalogue.</p>
+  
+<div class="filtres">
+  <label>Rechercher <input id="recherche" type="search"></label>
+  <label>Catégorie <select id="categorie">
+    <option value="">Toutes</option><option>HTML</option><option>CSS</option><option>JavaScript</option>
+  </select></label>
+</div>
+  <label><span><input id="favoris-seuls" type="checkbox"> Favoris uniquement</span></label>
+  <nav><button id="reessayer" type="button">Réessayer</button><button id="simuler" type="button">Simuler une erreur HTTP</button></nav>
+  <p id="statut" role="status"></p>
+  <ul id="liste"></ul>
+</main>
+<script type="module" src="./script.js"></script>
+</html>

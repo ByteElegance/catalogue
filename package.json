@@ -1,0 +1,23 @@
+{
+  "name": "forge-catalogue-ateliers",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node serveur.mjs",
+    "cours:01": "node serveur.mjs /lecons/01/index.html",
+    "exo:01": "node serveur.mjs /exercices/01/index.html",
+    "corrige:01": "node serveur.mjs /corriges/01/index.html",
+    "cours:02": "node serveur.mjs /lecons/02/index.html",
+    "exo:02": "node serveur.mjs /exercices/02/index.html",
+    "corrige:02": "node serveur.mjs /corriges/02/index.html",
+    "cours:03": "node serveur.mjs /lecons/03/index.html",
+    "exo:03": "node serveur.mjs /exercices/03/index.html",
+    "corrige:03": "node serveur.mjs /corriges/03/index.html",
+    "cours:04": "node serveur.mjs /lecons/04/index.html",
+    "exo:04": "node serveur.mjs /exercices/04/index.html",
+    "corrige:04": "node serveur.mjs /corriges/04/index.html",
+    "cours:05": "node serveur.mjs /lecons/05/index.html",
+    "exo:05": "node serveur.mjs /exercices/05/index.html",
+    "corrige:05": "node serveur.mjs /corriges/05/index.html"
+  }
+}

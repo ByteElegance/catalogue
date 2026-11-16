@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>04 · Charger les ateliers avec fetch</title>
+<link rel="stylesheet" href="../../styles.css">
+<main>
+  <nav><a href="../../index.html">Sommaire</a><a href="../../lecons/04/index.html">Cours</a><a href="../../exercices/04/index.html">Exercice</a><a href="../../corriges/04/index.html">Corrigé</a></nav>
+  <h1>04 · Charger les ateliers avec fetch</h1>
+  <p>Cours · Catalogue d’ateliers</p>
+  
+  
+<div class="filtres">
+  <label>Rechercher <input id="recherche" type="search"></label>
+  <label>Catégorie <select id="categorie">
+    <option value="">Toutes</option><option>HTML</option><option>CSS</option><option>JavaScript</option>
+  </select></label>
+</div>
+  <label><span><input id="favoris-seuls" type="checkbox"> Favoris uniquement</span></label>
+  <nav><button id="reessayer" type="button">Réessayer</button><button id="simuler" type="button">Simuler une erreur HTTP</button></nav>
+  <p id="statut" role="status"></p>
+  <ul id="liste"></ul>
+</main>
+<script type="module" src="./script.js"></script>
+</html>
